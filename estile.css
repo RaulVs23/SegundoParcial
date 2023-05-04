@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+   box-sizing: border-box;
+}
+header, section, article, nav, footer, aside, figure, form{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.fad-solid{
+    color: white !important;
+}
+body{
+    margin: 0;
+    background: #e9e9e9;
+}
+p, h1, h2, h3, h4{
+    font-family: 'Roboto', sans-serif;
+    font-size:14px;
+    color: #555555
+}
+h1{font-size: 24px;}
+h2{font-size: 20px;}
+h3{font-size: 18px;}
+h4{font-size: 16px;}
+p{font-size: 14px;}
+a{
+    text-decoration: none;
+    color: #555555;
+}
+a img{
+    border: none;
+}
+
+
+#cabecera{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+#cajacabecera{
+  width: 100%;
+  background: #684815;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  background: linear-gradient(to right, #18000f, #dd0606);
+}
+#cajacabecera{
+  width: 100%;
+  background: #684815;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  background: linear-gradient(to right, #18000f, #dd0606);
+
+} 
+
+#logo{
+    width: 20%;
+    padding: 6px 0;
+
+}
+
+.menu{
+    width: 80%;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu a {
+  display: block;
+  line-height: 125px;
+  padding: 0 px;
+  color: #e9e9e9;
+  font-family: 'Poppins', sans-serif;
+  font-size: 65px;
+  margin-left:150px;
+}
+
+
+.menu a i{
+    font-size: 27px;
+    padding: 0 10px;
+}
+
+.seccion{
+  width: 100%;
+  margin: 0;
+  height: 920px !important;
+  padding-top: 100px !important;
+
+}
+
+
+.Articulos{
+    height: 1000px;
+    position: relative;
+    padding-top: 100px;
+    background-color: #c5c3c3;
+}
+
+.text-center{
+    text-align: center !important;
+}
+
+.Principio{
+  background-image: url(imagenes/13380024_5215212.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 1004px !important; 
+
+}
+
+.tren
+{
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 1500px;
+  float: right;
+  padding: 475px 20px 0 0;
+}
+.Inicio{
+  position: relative;
+}
+.Calendario{
+  position: relative;
+}
+
+.Mas{
+  height: 1000px;
+  position: relative;
+  padding-top: 100px;
+}
+
+.title-section{
+    background: linear-gradient(to right, #18000f, #dd0606);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+}
+
+.fondo-ciudad {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 3000px;
+  float: right;
+  padding: 350px 20px 0 0;
+}
+#piepagina{
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: #b70000;
+    min-height: 20vh;
+
+}
+
+#redes-sociales div{
+  margin: 0 20px;
+  
+}
+
+#nombre{
+    padding-left: 70px;
+    font-size: 35px;
+}
+.name {
+    width: 50%;
+}
+
+#redes-sociales i{
+    display: flex;
+    justify-content: center;
+}
+
+
+
